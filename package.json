@@ -1,0 +1,6 @@
+{
+    "name": "oh-my-jamstack",
+    "devDependencies": {
+        "lerna": "^3.22.1"
+    }
+}
