@@ -1,5 +1,8 @@
 {
     "name": "oh-my-jamstack",
+    "scripts": {
+        "ci": "lerna run ci"
+    }
     "devDependencies": {
         "lerna": "^3.22.1"
     }
