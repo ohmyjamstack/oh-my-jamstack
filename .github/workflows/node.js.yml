@@ -25,4 +25,7 @@ jobs:
       uses: actions/setup-node@v2.1.4
       with:
         node-version: ${{ matrix.node-version }}
-    - run: yarn ci
+    - name: Installing Depencies
+      run: yarn install
+    - name: Run Coverage
+      run: yarn ci
